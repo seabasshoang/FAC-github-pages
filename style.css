@@ -84,7 +84,6 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
     position: fixed;
     width: 100%;
 }
@@ -178,7 +177,12 @@ h2 {
     flex-direction: column;
     z-index: 5;
     text-align: center;
-    opacity: 1;
+    opacity: 0.8;
+}
+
+.fccTitle:hover {
+    color: #306203;
+    opacity: 0.8;
 }
 
 .fccBox {
@@ -186,6 +190,15 @@ h2 {
     flex-direction: column;
     justify-content: center;
     border-width: 100%;
+}
+
+.codewarsTitle:hover {
+    color:  #cc3122;
+    opacity: 0.8;
+}
+
+.imgTitle:hover {
+    color: darkgray;
 }
 
 .github {
